@@ -1,4 +1,3 @@
-
 alias list='cd ~/src/Personal/list'
 alias P='cd ~/Projects/portals'
 alias gitx="gitx --all"
@@ -29,3 +28,10 @@ export PATH=/usr/local/bin:/usr/local/mysql/bin:$PATH
 PATH=$PATH:$HOME/bin:$HOME/.rvm/bin
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+HISTFILE=~/.bash_history
+HISTFILE=50000
+HISTFILE=20000
+SAVEHIST=20000
+HISTCONTROL=ignorespace
+HISTCONTROL=ignoredups
