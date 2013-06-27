@@ -1,5 +1,4 @@
-alias list='cd ~/src/Personal/list'
-alias P='cd ~/Projects/portals'
+alias ship='cd ~/src/shippingeasy/ship-it'
 alias gitx="gitx --all"
 alias gst='git status'
 alias gd='git diff $1'
@@ -7,7 +6,8 @@ alias gca='git commit -a'
 alias gco='git checkout $1'
 alias gpr='git pull --rebase'
 alias gitme='git log origin/master..master'
-alias ops='ssh dcox@ops01.pacloud.net'
+alias foreman-console='foreman run rails console'
+alias foreman-server='foreman start -p 5000 -f Procfile.dev'
 
 RED="\[\033[0;31m\]"
 YELLOW="\[\033[0;33m\]"
