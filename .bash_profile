@@ -8,7 +8,7 @@ alias gpr='git pull --rebase'
 alias gitme='git log origin/master..master'
 alias foreman-console='foreman run rails console'
 alias foreman-server='foreman start -p 5000 -f Procfile.dev'
-alias search= elasticsearch -f -D es.config=/usr/local/opt/elasticsearch/config/elasticsearch.yml 
+alias search= 'elasticsearch -f -D es.config=/usr/local/opt/elasticsearch/config/elasticsearch.yml'
 
 RED="\[\033[0;31m\]"
 YELLOW="\[\033[0;33m\]"
